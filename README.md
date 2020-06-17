@@ -1,4 +1,4 @@
-#Domino-jackson
+# Domino-jackson
 
 ### What is it :
 - Annotation processing based JSON mappers. POJO -> JSON -> POJO
@@ -9,7 +9,7 @@
 
 ### JSON mapping
 
-- #####JSON.stringify & JSON.parse
+- ##### JSON.stringify & JSON.parse
 ```java
 
 JsPropertyMap<String> jsonMap= Js.asPropertyMap(JsObject.create(null));
@@ -26,7 +26,7 @@ DomGlobal.console.info(Global.JSON.stringify(jsonMap));
     * Does not work with normal pojos unless they are exported as JsType, you can read about this here [JsInterop-DTO-strategy](https://github.com/intendia-oss/autorest/wiki/JsInterop-DTO-strategy)
 
 
--  #####Domino-jackson
+-  ##### Domino-jackson
 
 - Easy to use
 
