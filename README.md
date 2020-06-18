@@ -12,7 +12,7 @@
 - ##### JSON.stringify & JSON.parse
 ```java
 
-JsPropertyMap<String> jsonMap= Js.asPropertyMap(JsObject.create(null));
+JsPropertyMap<String> jsonMap= Js.cast(Js.asAny(JsObject.create(null)).asPropertyMap());
 jsonMap.set("firstName", first_name.getValue());
 jsonMap.set("lastName", last_name.getValue());
 
